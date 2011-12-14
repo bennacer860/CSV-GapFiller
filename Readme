@@ -1,0 +1,18 @@
+given a CSV file with gaps , this script would replace the gaps buy the value above it :example 
+
+
+11,naruto
+  ,jo
+23,sasuke
+  ,do
+  ,ikuku
+2 ,sangoku 
+
+====>
+
+11,naruto
+11,jo
+23,sasuke
+23,do
+23,ikuku
+2 ,sangoku  
